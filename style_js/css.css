@@ -1,0 +1,144 @@
+ .thumb img { 
+      filter: none;  
+      -webkit-filter:grayscale(0); 
+      border-radius:5px; 
+      background-color: #fff; 
+      border: 1px solid #ddd; 
+      padding:5px; 
+    } 
+    .thumb img:hover { 
+      filter: gray; 
+      -webkit-filter: grayscale(1); 
+    } 
+    .thumb { 
+      padding:5px; 
+    } 
+body { 
+    font-family: Georgia;
+    background-image:url(../images/background.jpg);
+}
+#inner { 
+    padding: 15px 80px;
+    margin:auto; 
+    background-color: floralwhite; 
+    border: solid #666;
+    border-width: 8px 8px 8px 8px; 
+}
+.yui-gf {
+    margin-bottom: 30px; 
+    border-bottom: 4px solid #ccc; 
+}
+#hd { 
+    margin: 2.5px 0 30px 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+#hd h1 { 
+    font-size: 48px; 
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+#hd h2 { 
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+}
+h2 { 
+    font-size: 152%;
+}
+h3, h4 { 
+    font-size: 122%; 
+}
+h1, h2, h3, h4 { 
+    color: #333; 
+}
+p { 
+    font-size: 100%; 
+    line-height: 18px; 
+    padding-right: 3em;
+}
+strong {
+    font-weight: bold; 
+}
+li {
+    line-height: 24px;
+    border-bottom: 2px solid #ccc;
+}
+p.enlarge { 
+    font-size: 144%;
+    padding-right: 6.5em; 
+    line-height: 24px;
+}
+p.enlarge span {
+    color: #000
+}
+.first h2 { 
+    font-style: italic; 
+}
+.job { 
+    position: relative; 
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.job h4 {
+    position: absolute; 
+    top: 22px;
+    right: 0;
+}
+.talent {
+    width: 32%;
+    float: left 
+}
+.talent h2 {
+    margin-bottom: 6px;
+    margin-top 20px;
+}
+
+.yui-gf .yui-u{
+    width:80%;
+}
+.yui-u-first{
+    width: 50%
+}
+#photo img{
+    max-width: 100%;
+    height: auto;
+}
+#name{
+	margin-left: 35px;
+}
+#email{
+	margin-left: 35px;
+}
+#SecondName{
+	margin-left: 6px;
+}
+#sex{
+	margin-left: 25px;
+}
+#date{
+	margin-left: 6px;
+}
+#age{
+	margin-top: 10px;
+	margin-left: 54px;
+}
+#sau{
+	float: none;
+    margin-left:3px;
+	margin-top: 10px;
+}
+#clear{
+	clear: both;
+}
+.FORM{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+	width: 350px;
+	margin:  auto;
+    border: 7px double;
+    border-color:darkgrey;
+    margin-top: 70px;
+}
+.yui-gf div.first{width:18%;}
